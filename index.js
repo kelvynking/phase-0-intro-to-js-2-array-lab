@@ -15,3 +15,7 @@ function destructivelyRemoveLastCat() {
 function destructivelyRemoveFirstCat() {
     cats.shift(0,1);
 }
+
+function appendCat(name) {
+    return [...cats, name];
+}
