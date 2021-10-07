@@ -11,3 +11,7 @@ function destructivelyPrependCat() {
 function destructivelyRemoveLastCat() {
     cats.splice(-1);
 }
+
+function destructivelyRemoveFirstCat() {
+    cats.shift(0,1);
+}
