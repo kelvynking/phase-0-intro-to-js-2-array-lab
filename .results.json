@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 9,
-    "passes": 3,
+    "passes": 4,
     "pending": 0,
-    "failures": 6,
-    "start": "2021-10-07T00:55:34.819Z",
-    "end": "2021-10-07T00:55:35.176Z",
-    "duration": 357
+    "failures": 5,
+    "start": "2021-10-07T00:57:18.950Z",
+    "end": "2021-10-07T00:57:19.308Z",
+    "duration": 358
   },
   "tests": [
     {
@@ -34,12 +34,9 @@
     {
       "title": "removes the last cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: destructivelyRemoveLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:33:9)\n    at processImmediate (node:internal/timers:464:21)",
-        "message": "destructivelyRemoveLastCat is not defined"
-      }
+      "err": {}
     },
     {
       "title": "removes the first cat from the cats array",
@@ -94,16 +91,6 @@
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "removes the last cat from the cats array",
-      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: destructivelyRemoveLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:33:9)\n    at processImmediate (node:internal/timers:464:21)",
-        "message": "destructivelyRemoveLastCat is not defined"
-      }
-    },
     {
       "title": "removes the first cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
@@ -174,6 +161,13 @@
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }

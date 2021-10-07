@@ -7,3 +7,7 @@ function destructivelyAppendCat() {
 function destructivelyPrependCat() {
     cats.unshift("Bob");
 }
+
+function destructivelyRemoveLastCat() {
+    cats.splice(-1);
+}
