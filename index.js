@@ -23,3 +23,7 @@ function appendCat(name) {
 function prependCat(name) {
     return [name, ...cats];
 }
+
+function removeLastCat() {
+    return cats.slice(0, -1);
+}
